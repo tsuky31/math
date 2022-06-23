@@ -1,0 +1,160 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>MANGAS</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="header-left">
+        <img class="img3" src="../../../Downloads/LOGO.png">
+        <h1> LES MANGAS</h1>
+      </div>
+      <div class="header-right">
+        <h2>acceuil</h2>
+        <h3>blog</h3>
+        <h4>CV</h4>
+        <h5>contact</h5>
+      </div>
+      <form method="post" action="traitement.php">
+        <div>
+          <label for="pays">Quel est votre style de mangas ?</label><br />
+          <select name="pays" id="pays">
+            <option value="france">pirate</option>
+            <option value="espagne">combat</option>
+            <option value="italie">aventure</option>
+            <option value="royaume-uni">chill</option>
+            <option value="canada">hard </option>
+            <option value="etats-unis">comédie</option>
+            <option value="chine">solo</option>
+            <option value="Japon">équipe</option>
+          </select>
+          </div>
+        </form>
+
+      </header>
+
+      <div class="content">
+        <div class="content-left">
+          <img class="img4" src="../../../Downloads/paysage.png">
+          <img class="img2" src="../../../Downloads/herbe.png">
+        </div>
+        <div class="content-right">
+
+          <p> Bonjour et bienvenue sur le site pour comprendre ce que c'est un
+            manga
+          </p>
+          <p>un manga c'est un livre qui s'achete en magazin principalement ou
+            alors
+            par internet (amazon), un manga c'est principalement un livre mais
+            nous
+            pouvons
+            en trouver sur des site de streaming wakanim qui est un logiciel qui
+            permet de regarder des mangas en version numérique et télévisé.
+            C'est aussi une bande dessiné qui se fait presque tout le temps au
+            Japon
+            car là bas c est la spécialité. Les mangas sont différent des livres
+            normal car
+            la seule chose <br/> qui change principalement c est la lecture de
+              gauche à
+              droite car dans un manga la lecture se fait de droite à gauche.
+            </p>
+            <h1>les mangas les plus regardaient:</h1>
+            <ul>
+              <li>one piece</li>
+              <li>dragon ball Z</li>
+              <li>naruto</li>
+            </ul>
+            <h1>les mangas les plus populaires:</h1>
+            <ul>
+              <li>one piece </li>
+              <li>fairy tail</li>
+              <li>my hero académia</li>
+              <li>naruto</li>
+              <li>one punch man</li>
+              <li>l attaque des titans </li>
+            </ul>
+            <p>pour mieux comprendre ce que c'est les mangas regarder cette
+              petite
+              vidéo:<a href="https://youtu.be/ZOyeW-ewKHs">1jour,1question</a>
+            </p>
+            <p>
+              voici touts les personnages des mangas les plus populaire:
+            </p>
+            <img class="img1" src="../../../Downloads/anime.jpeg">
+            <form method="post" action="traitement.php">
+              <p>
+                <label for="ameliorer">Comment pensez-vous que je pourrais
+                  améliorer
+                  mon site ?</label>
+                <textarea name="ameliorer" id="ameliorer"></textarea>
+              </p>
+            </form>
+          </div>
+        </div>
+
+      </body>
+    </html>
+
+<style>
+  h1 {
+    color:#a62323;
+    margin-left: 10px;
+  
+  }
+  p {
+    color:black;
+    font-size: 19px;
+  }
+  ul{
+    font-size: 19px;
+  }
+  body{
+    background-color:beige;
+    color:black;
+  }
+  .img2{
+    height: 200px;
+    width: 200px;
+  }
+  .img3{
+    height: 200px;
+    width: 200px;
+  }
+  .header-left{
+    flex-direction: row;
+    display: flex;
+  }
+  .header-right{
+    flex-direction: row;
+    display: flex;
+    align-items: flex-end;
+  }
+  header {
+    border: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  h2, h3, h4, h5{
+    margin-right: 50px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    height: fit-content;
+  }
+  .content {
+    display: flex;
+  }
+  .img2{
+    height: 500PX;
+    width: 450px;
+  }
+
+  .content-left{
+    border: solid;
+    height: fit-content
+  }
+  .content-right{
+    margin-left: 50px;
+  }
+</style>
